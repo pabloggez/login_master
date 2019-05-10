@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Clientes;
+using Usuarios;
 
 namespace Login
 {
@@ -34,6 +36,20 @@ namespace Login
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FClientes fClientes = new FClientes();
+
+            fClientes.ShowDialog();
+        }
+
+        private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FUsuarios FUsuarios = new FUsuarios();
+
+            FUsuarios.ShowDialog();
         }
     }
 }

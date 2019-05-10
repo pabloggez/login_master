@@ -127,6 +127,14 @@
       <Project>{40195db5-99d7-4ecc-a1a6-097ee3e5baf4}</Project>
       <Name>BaseDatos</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Clientes\Clientes.csproj">
+      <Project>{216ef1f0-8623-457c-8819-f64f158f264d}</Project>
+      <Name>Clientes</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Usuarios\Usuarios.csproj">
+      <Project>{e099756b-a483-40a1-ba05-4fd76d860c30}</Project>
+      <Name>Usuarios</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

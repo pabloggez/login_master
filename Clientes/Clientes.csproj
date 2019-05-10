@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{E099756B-A483-40A1-BA05-4FD76D860C30}</ProjectGuid>
+    <ProjectGuid>{216EF1F0-8623-457C-8819-F64F158F264D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Usuarios</RootNamespace>
-    <AssemblyName>Usuarios</AssemblyName>
+    <RootNamespace>Clientes</RootNamespace>
+    <AssemblyName>Clientes</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -43,13 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CUsuarios_c.cs" />
-    <Compile Include="CUsuarios_m.cs" />
-    <Compile Include="FUsuarios.cs">
+    <Compile Include="Clientes_c.cs" />
+    <Compile Include="Clientes_m.cs" />
+    <Compile Include="FClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FUsuarios.Designer.cs">
-      <DependentUpon>FUsuarios.cs</DependentUpon>
+    <Compile Include="FClientes.Designer.cs">
+      <DependentUpon>FClientes.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
