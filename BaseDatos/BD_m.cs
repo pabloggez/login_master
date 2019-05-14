@@ -7,7 +7,7 @@ namespace BaseDatos
     public class CBD_m : CConexion_m
     {
         private SqlDataReader sqlDataReader;
-        private DataTable dataTable = new DataTable();
+        private DataTable dataTable;
         private Exception exception;
         private int iRowsCount;
         private bool bResultado;
@@ -26,6 +26,8 @@ namespace BaseDatos
                     try
                     {
                         sqlDataReader = comando.ExecuteReader();
+
+                        dataTable = new DataTable();
 
                         dataTable.Load(sqlDataReader);
 

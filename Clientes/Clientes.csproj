@@ -51,6 +51,12 @@
     <Compile Include="FClientes.Designer.cs">
       <DependentUpon>FClientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="FClientesMantenimiento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FClientesMantenimiento.Designer.cs">
+      <DependentUpon>FClientesMantenimiento.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +64,14 @@
       <Project>{40195db5-99d7-4ecc-a1a6-097ee3e5baf4}</Project>
       <Name>BaseDatos</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FClientes.resx">
+      <DependentUpon>FClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FClientesMantenimiento.resx">
+      <DependentUpon>FClientesMantenimiento.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

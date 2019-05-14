@@ -47,9 +47,9 @@ namespace Login
 
         private void usuariosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FUsuarios FUsuarios = new FUsuarios();
+            FUsuarios fUsuarios = new FUsuarios();
 
-            FUsuarios.ShowDialog();
+            fUsuarios.ShowDialog();
         }
     }
 }
